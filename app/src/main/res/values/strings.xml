@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CarPort</string>
+    <string name="cancel">Отмена</string>
+    <string name="permission_header">Запрос доступа</string>
+    <string name="permission_text">Для полноценной работы необходимы следующие разрешения</string>
+    <string name="file_chooser_error">Ошибка выбора файла</string>
+    <string name="home_url">https://to.carport.ru/</string>
+    <string name="order_id_url">order/id/</string>
+    <string name="host_url">https://cp.carport.ru/</string>
+    <string name="subscribe_url">push/deviceToken</string>
+    <string name="notifications_url">notifications</string>
+    <string name="open_chat_param">/?togglechat=true</string>
+    <string name="default_notification_channel_id">ru.carport.web.app</string>
+    <string name="asset_statements">[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ru.carport.web.app",
+    "sha256_cert_fingerprints":
+    ["B1:BE:39:2A:C2:65:F6:42:8B:34:40:40:9A:A3:0E:85:E7:B2:E0:29:A0:B4:5F:89:68:4F:12:C6:84:63:30:16"]
+  }
+}]</string>
+</resources>
